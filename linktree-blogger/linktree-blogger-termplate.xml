@@ -97,7 +97,6 @@ footer{padding:40px;font-size:14px}
 ]]></b:skin>
 
 <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js'/>
-<script async='async' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'/>
 <!--Remove m=1 Mobile -->
 <script type='text/javascript'>
 var uri=window.location.toString();if(uri.indexOf(&quot;?m=1&quot;,&quot;?m=1&quot;)&gt;0){var clean_uri=uri.substring(0,uri.indexOf(&quot;?m=1&quot;));window.history.replaceState({},document.title,clean_uri)}
@@ -146,38 +145,26 @@ var uri=window.location.toString();if(uri.indexOf(&quot;?m=1&quot;,&quot;?m=1&qu
     </div>
 
     <!-- Footers | Ganti sesuai keinginan -->
-    <footer>
-        <div class='footer-section'>
-          <div class='fotCd'>
-              &#169; <span id='getYear'><b:if cond='data:view.url != data:view.url params { amp: &quot;1&quot; }'><script>/*<![CDATA[*/ var d = new Date(); var n = d.getFullYear(); document.getElementById('getYear').innerHTML = n; /*]]>*/</script><b:else/>2023</b:if></span> &#8231; <bdi><a expr:href='data:blog.homepageUrl.canonical'><data:blog.title/></a></bdi>. All rights reserved.
+	<footer class='FootElement'>
+		<div class='card-footer card-footer py-2 border-top text-center'>
+          <div class='fotCd pb-1 text-light'>
+          	&#169; <span id='getYear'><b:if cond='data:view.url != data:view.url params { amp: &quot;1&quot; }'><script>/*<![CDATA[*/ var d = new Date(); var n = d.getFullYear(); document.getElementById('getYear').innerHTML = n; /*]]>*/</script><b:else/>2023</b:if></span> &#8231; <bdi><a expr:href='data:blog.homepageUrl.canonical'><data:blog.title/></a></bdi>. All rights reserved.
           </div>
-            <div class='footer-text'>
-              Made with <i class='bi bi-heart-fill'/> By <a class='link-hide' href='https://www.inputekno.com/'>InpuTekno</a> | v 2.2.0 | Build on Blogger
+          <div class='buildCrd text-white-50'>
+              Made with <i class='bi bi-heart-fill'/> By <a class='link-hide text-white-50' href='https://www.inputekno.com/' id='itC' title='InpuTekno'>InpuTekno</a> | v2.2.0 | Build on Blogger
           </div>
-        </div>
-    </footer>
+		</div>
+	</footer>
     <!-- End -->
 </div>
 
+<script crossorigin='anonymous' integrity='sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=' src='https://code.jquery.com/jquery-3.7.0.min.js'/>
 <!-- DarkMode Buttons By WendyCode -->
 <script type='text/javascript'>
 //<![CDATA[
-document.getElementById("darkmode").addEventListener("click", function() {
-  document.body.classList.toggle("darkmode");
-  localStorage.setItem("toggled", document.body.classList.contains("darkmode") ? "darkmode" : "");
-});
-
-if (localStorage.getItem("toggled") === "darkmode") {
-  document.body.classList.add("darkmode");
-}
-
-// Tooltip Bootstrap
-const tooltipElement = document.querySelector('[data-toggle="tooltip"]')
-let bsTooltip = new bootstrap.Tooltip(tooltipElement)
-
-// update Tooltip Bootstrap
-tooltipElement.title = 'New Title'
-bsTooltip = new bootstrap.Tooltip(tooltipElement)
+document.getElementById("darkmode").addEventListener("click",function(){document.body.classList.toggle("darkmode"),localStorage.setItem("toggled",document.body.classList.contains("darkmode")?"darkmode":"")}),"darkmode"===localStorage.getItem("toggled")&&document.body.classList.add("darkmode");
+"use strict";$(document).ready(function(){var e,t,r;e=window,t=document,(r=$("footer.FootElement > .card-footer > .buildCrd > a#itC")).length?(e.validurlit=function(e){return/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[\-;:&=\+\$,\w]+@)?[A-Za-z0-9\.\-]+|(?:www\.|[\-;:&=\+\$,\w]+@)[A-Za-z0-9\.\-]+)((?:\/[\+~%\/\.\w\-_]*)?\??(?:[\-\+=&;%@\.\w_]*)#?(?:[\.\!\/\\\w]*))?)/.test(e)},e.sUp=function(e){t.querySelector(e).parentNode.style.height="0"},e._GET=function(e,t){t||(t=location.href);var r=RegExp("[\\?&]"+(e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]"))+"=([^&#]*)").exec(t);return null==r?null:r[1]},r.attr("href","//www.inputekno.com").text("InpuTekno")):location.href="//www.inputekno.com"});
+let a=document.createElement("a");a.href="//www.inputekno.com",a.target="_blank",a.text="InpuTekno",a.rel="noopener",a.title="Power By InpuTekno",document.querySelector(".FootElement").appendChild(a).style.display="none";
 //]]>
 </script>
 
