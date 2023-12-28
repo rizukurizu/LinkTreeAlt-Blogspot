@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<!--[ <head> Open ]-->
+&lt;head&gt;
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<meta content='blogger' name='generator'/>
+<link href='https://www.blogger.com/openid-server.g' rel='openid.server'/>
+  
+<!--Meta Data-->
+<title>Inputekno.Com | linktree</title>
+<meta content='Inputekno.Com | linktree' name='title'/>
+<meta content='Deskripsi Linktree Blog' name='description'/>
+<meta content='Keyword_1, Keyword_2, Keyword_3' name='keywords'/>
+<meta content='index, follow' name='robots'/>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'/>
+<meta content='English' name='language'/>
+
+<!-- Favicons -->
+<link href='https://cdn.inputekno.com/icon-inputekno/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='https://cdn.inputekno.com/icon-inputekno/apple-icon-120x120.png' rel='apple-touch-icon' sizes='120x120'/>
+<link href='https://cdn.inputekno.com/icon-inputekno/apple-icon-152x152.png' rel='apple-touch-icon' sizes='152x152'/>
+  
+<!-- Warna Chrome, Firefox OS, Opera dan Vivaldi -->
+<meta content='#fff' name='theme-color'/>
+<!-- Warna Windows Phone -->
+<meta content='#fff' name='msapplication-navbutton-color'/>
+<!-- Warna iOS Safari -->
+<meta content='#fff' name='apple-mobile-web-app-status-bar-style'/>
+<meta content='yes' name='apple-mobile-web-app-capable'/>
+
+<style id='page-skin-1' type='text/css'><!--
+--></style>
+
+<b:skin version='1.3.0'><![CDATA[
+/****CSS CODE*****/
+:root{
+--body-bg: #f7f8f9 none repeat fixed top cente;
+--body-bg-img: #f7f7f7 url(https://blogger.googleusercontent.com/img/a/AVvXsEjiVAdgk1o2TISssKjWv7zhq2_I09liL5mXMYdtmACebwPoeVK4ZnYJ8sxltJ_akq9lVbD_UPeN5pGFTOzKf-3UsmU9FB7FxUypR2EjSmhqTDzHelY1cU2NrUCt3q_CBNrfwAz-LMex3mqlftRQRRckk9bRidYozzQQnPOgHp039GEybjYQkhXf1hAHdw=s16000);
+--text-color: #202124;
+--main-color: #3d55ef;
+--head-color: #202124;
+--link-color: #000;
+--hover-color: #24272a;
+--body-font: normal normal 1rem Poppins;
+--border-radius: 10px;
+--border-1: #f3f3f3;
+--border-2: rgba(0, 0, 0, 0.175);
+--transition: all .3s;
+--transition-2: all .4s ease;
+}
+
+[data-bs-theme=dark] {
+--body-bg: #242424 none repeat fixed top left;
+--text-color: #a5a5a5;
+--main-color: #3d55ef;
+--head-color: #e7e7e7;
+--link-color: #e7e7e7;
+--border-1: #f3f3f3;
+--border-2: rgba(255, 255, 255, 0.15);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Dosis:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@10&display=swap');
+@media screen and (min-width:768px){::-webkit-scrollbar{-webkit-appearance:none;width:4px;height:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:rgba(0,0,0,.15);border-radius:10px}::-webkit-scrollbar-thumb:hover{background:rgba(0,0,0,.35)}::-webkit-scrollbar-thumb:active{background:rgba(0,0,0,.35)}}
+
+*, :after, :before {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+html {position:relative;-webkit-text-size-adjust:100%;}
+body {position:relative;background:var(--body-bg);color:var(--text-color);font:var(--body-font);overflow-x:hidden;margin:0}
+
+/* main css */
+.flex {display:flex}
+a {text-decoration:none;color:var(--link-color)} svg {width:14px;height:auto} .hidden {display:none}
+h1, h2, h3, h4, h5, h6 {color:var(--head-color)}
+h1::after, h2::after, h3::after, h4::after, h5::after, h6::after, h1::before, h2::before, h3::before, h4::before, h5::before, h6::before{content:'';display:inline-block;vertical-align:middle; width:25px; margin:0 10px;border-bottom:1px solid #989b9f; opacity:.5}
+.container {--bs-gutter-x:1.5rem;--bs-gutter-y:1.5rem;width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-y) * .5);margin-right:auto;margin-left:auto}
+@media screen and (min-width:576px){.container{max-width:540px}}
+@media screen and (min-width:768px){.container{max-width:720px}}
+@media screen and (min-width:992px){.container{max-width:960px}}
+@media screen and (min-width:1200px){.container{max-width:1140px}}
+
+/* header css */
+#header-profile {padding:50px 20px;width:100%;position:relative}
+.profile {position:relative;text-align:center;margin-top:50px}
+.profile img {width:85px;height:auto;border-radius:100%;border:1px solid var(--border-1);padding:3px}
+.profile svg {fill:#1d9aef}
+.profile .name {--gap:.5rem;align-items:center;justify-content:center;gap:var(--gap);font-weight:700;color:var(--head-color)}
+.sticky-top {position:-webkit-sticky;position:sticky!important;top:-20px;transform:translateY(40px);transition:var(--transition);z-index:1020}
+.sticky-top {max-width:calc(788px)!important;margin:0 auto;padding:10px;background:rgba(90, 90, 90, 0.12);backdrop-filter:blur(10px);border-radius:var(--border-radius)}
+.sticky-top img {float:left;width:45px;margin-right:5px}
+.sticky-top>*:not(:first-child) {display:block;text-align:start;margin:auto;margin-left:50px}
+
+/* Dark button css */
+.dark-mode {display:inline-block;position:absolute;top:50px;right:45px}
+.dark-mode svg {width:22px}
+#darkmodes:checked ~ label svg:nth-child(2){fill:var(--linkC);}
+#darkmodes ~ label svg{display:none}
+#darkmodes:not(:checked) ~ label svg:nth-child(1), #darkmodes:checked ~ label svg:nth-child(2){display:block}
+
+/* linktree css */
+#linktreeList {--gap:1.1rem;position:relative;align-items:center;flex-direction:column;gap:var(--gap);max-width:680px;margin:auto}
+#linktreeList a {position:relative;text-align:center;padding:15px;border:1px solid var(--border-2);border-radius:var(--border-radius);width:100%;transition:var(--transition) ease}
+#linktreeList a> i {float:left}
+#linktreeList a:hover {color:#fff;background-color:var(--hover-color);transition:all .3s ease;transform:scale(1.02);border:1px solid transparent}
+#LinktreeListwo {position:relative;text-align:center;max-width:680px;margin:auto}
+#LinktreeListwo .gears {--gap:.5rem;align-items:center;justify-content:center;flex-wrap:wrap;gap:var(--gap)}
+.gears>* {--gap:.5rem;display:flex;align-items:center;gap:var(--gap);padding:10px;border:1px solid var(--border-2);border-radius:var(--border-radius);transition:var(--transition) ease}
+.gears>*:hover {color:var(--main-color);transition:var(--transition) ease;transform:scale(1.02)}
+
+/* color social media */
+#linktreeList a.Facebook:hover {background-color:#062db9}
+#linktreeList a.Twitter:hover {background-color:#20a1eb}
+#linktreeList a.Youtube:hover {background-color:#FF0000}
+#linktreeList a.LinkedIn:hover {background-color:#0A66C2}
+#linktreeList a.GitHub:hover {background-color:#6e5494}
+#linktreeList a.Play.Store:hover {background-color:#ffd400}
+#linktreeList a.TikTok:hover {background:linear-gradient(30deg, #25F4EE, #000000, #FE2C55)}
+#linktreeList a.Pinterest:hover {background-color:#c8232c}
+#linktreeList a.Instagram:hover {background:linear-gradient(45deg, #833ab4, #c13584, #e1306c, #fd1d1d)}
+#linktreeList a.WhatsApp:hover {background-color:#25D366}
+#linktreeList a.Email:hover {background-color:#BB001B}
+#linktreeList a.Medium:hover{background:#211f1f}
+#linktreeList a.Paypal:hover{background:#2997D8}
+#linktreeList a.Twitch:hover{background:#6441A4}
+#linktreeList a.Spotify:hover{background:#1db954}
+#linktreeList a.Discord:hover{background:#5865F2}
+#linktreeList a.Line:hover{background:#00B900}
+#linktreeList a.Dribbble:hover{background:#E94C88}
+#linktreeList a.Signal:hover{background:#237f52}
+#linktreeList a.Reddit:hover{background:#FF4500}
+
+/* footer css */
+footer {font-size:.875rem;text-align:center;border-top:1px solid var(--border-2);margin-top:25px}
+footer .copyright {padding:35px 0}
+footer .copyright a {color:var(--text-color)}
+]]></b:skin>
+
+<!-- Bootstrap 5.3 CSS -->
+<link href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' rel='stylesheet'/>
+
+&lt;!--<head/>
+&lt;!--<body>--&gt;&lt;body&gt;
+
+<div class='container'>
+  <!-- header profile -->
+  <div id='header-profile'>
+    <div class='profile'>
+      <img alt='pic' class='profile-picture' src='https://cdn.inputekno.com/icon-inputekno/maskable-android-icon-512x512.png'/>
+      <div class='name flex'>InpuTekno.Com
+      <svg viewBox='0 0 16 16'><path d='M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z'/></svg>
+      </div>
+      <div class='about'>Keep Reading and Keep Working!</div>
+    </div>
+    <div class='dark-mode'>
+      <input class='hidden' id='darkmodes' type='checkbox'/>
+      <label class='btn btn-floating btn-lg darkmode' data-bs-placement='left' data-bs-title='Dark Mode' data-bs-toggle='tooltip' for='darkmodes'>
+        <svg class='sun' viewBox='0 0 512 512'><path d='M256 48v48m0 320v48m147.08-355.08-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48m-320 0H48m355.08 147.08-33.94-33.94M142.86 142.86l-33.94-33.94' fill='none' stroke='currentColor' stroke-linecap='round' stroke-miterlimit='10' stroke-width='32'/><circle cx='256' cy='256' fill='none' r='80' stroke='currentColor' stroke-linecap='round' stroke-miterlimit='10' stroke-width='32'/></svg>
+        <svg class='moon' viewBox='0 0 512 512'><path d='M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='32'/></svg>
+      </label>
+    </div>
+  </div>
+    
+  <!-- List Menu Linktree -->
+  <div class='flex' id='linktreeList'>
+    <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-link-45deg'/>Website</a>
+    <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-linkedin'/>LinkedIn</a>
+    <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-github'/>GitHub Code</a>
+    <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-twitter'/>Twitter</a>
+    <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-google-play'/>Play Store</a>
+    <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-instagram'/>Instagram</a>
+    <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-tiktok'/>TikTok</a>
+    <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-youtube'/>Youtube</a>
+    <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-facebook'/>Facebook</a>
+    <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-pinterest'/>Pinterest</a>
+  </div>
+  
+  <!-- List Menu 2 Linktree -->
+  <div id='LinktreeListwo'>
+    <h4>Free Web Tools</h4>
+    <div class='flex gears'>
+      <a class='gear' href='#url_mediasosial' target='_blank'><i class='bi bi-instagram'/>WA Spoiler</a>
+      <a class='gear' href='#url_mediasosial' target='_blank'><i class='bi bi-instagram'/>Image to Webp</a>
+      <a class='gear' href='#url_mediasosial' target='_blank'><i class='bi bi-instagram'/>Gmail dot trick</a>
+      <a class='gear' href='#url_mediasosial' target='_blank'><i class='bi bi-instagram'/>HTML Parse</a>
+      <a class='gear' href='#url_mediasosial' target='_blank'><i class='bi bi-instagram'/>Fake Tweet</a>
+      <a class='gear' href='#url_mediasosial' target='_blank'><i class='bi bi-instagram'/>Jadwal Sholat</a>
+    </div>
+  </div>
+  
+  <!-- Footers | Ganti sesuai keinginan -->
+  <footer>
+    <div class='copyright'>
+      <div class='right'> &#169; <span id='getYear'><b:if cond='data:view.url != data:view.url params { amp: &quot;1&quot; }'>
+        <script>/*<![CDATA[*/ var d = new Date(); var n = d.getFullYear(); document.getElementById('getYear').innerHTML = n; /*]]>*/</script><b:else/>2023</b:if></span> &#8231;
+        <bdi>
+          <a expr:href='data:blog.homepageUrl.canonical'>
+            <data:blog.title/>
+          </a>
+          . All rights reserved
+        </bdi>
+      </div>
+    </div>
+  </footer>
+
+</div>
+  
+<script crossorigin='anonymous' integrity='sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=' src='https://code.jquery.com/jquery-3.7.0.min.js'/>
+<!-- main javascript -->
+<script type='text/javascript'>//<![CDATA[
+var uri=window.location.toString();if(uri.indexOf("?m=1","?m=1")>0){var clean_uri=uri.substring(0,uri.indexOf("?m=1"));window.history.replaceState({},document.title,clean_uri)}
+/* Sticky Header */
+document.addEventListener("DOMContentLoaded",(function(){let e=document.querySelector(".container"),t=document.querySelector(".profile").innerHTML,n=e.firstChild,o=document.createElement("div");o.setAttribute("class","sticky-top profile"),o.innerHTML=t,window.addEventListener("scroll",(function(){window.scrollY>200?(e.insertBefore(o,n),document.body.style.paddingTop="0"):(o.remove(),document.body.style.paddingTop="0")}))}));
+const nodeList=document.querySelectorAll(".links");for(let e=0;e<nodeList.length;e++){const n=nodeList[e].innerText;nodeList[e].className+=" "+n};
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('{6 e=1.4(".b"),0=1.7("c");0.8("2","3"),0.d="f g ",e.9(0);6 r=1.7("a");r.8("2","i"),r.j="//h.k.l",r.m="n",r.o="5",r.p="q",r.s="5",1.4(".3").9(r)};',29,29,'t|document|class|build|querySelector|InpuTekno|let|createElement|setAttribute|appendChild||copyright|div|textContent||Theme|By|www|itC|href|inputekno|com|target|_blank|text|rel|noopener||title'.split('|'),0,{}))
+"use strict";$(document).ready(function(){var e,t,r;e=window,t=document,(r=$("footer > .copyright > .build > a.itC")).length?(e.validurlit=function(e){return/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[\-;:&=\+\$,\w]+@)?[A-Za-z0-9\.\-]+|(?:www\.|[\-;:&=\+\$,\w]+@)[A-Za-z0-9\.\-]+)((?:\/[\+~%\/\.\w\-_]*)?\??(?:[\-\+=&;%@\.\w_]*)#?(?:[\.\!\/\\\w]*))?)/.test(e)},e.sUp=function(e){t.querySelector(e).parentNode.style.height="0"},e._GET=function(e,t){t||(t=location.href);var r=RegExp("[\\?&]"+(e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]"))+"=([^&#]*)").exec(t);return null==r?null:r[1]},r.attr("href","//www.inputekno.com").text("InpuTekno")):location.href="//www.inputekno.com"});
+// Dark mode
+const modeBtn=document.getElementById("darkmodes");modeBtn.onchange=e=>{!0===modeBtn.checked?(document.documentElement.removeAttribute("data-bs-theme","light"),document.documentElement.setAttribute("data-bs-theme","dark"),window.localStorage.setItem("mode","dark")):(document.documentElement.removeAttribute("data-bs-theme","dark"),document.documentElement.setAttribute("data-bs-theme","light"),window.localStorage.setItem("mode","light"))};const mode=window.localStorage.getItem("mode");"dark"==mode&&(modeBtn.checked=!0,document.documentElement.removeAttribute("data-bs-theme","light"),document.documentElement.setAttribute("data-bs-theme","dark")),"light"==mode&&(modeBtn.checked=!1,document.documentElement.removeAttribute("data-bs-theme","dark"),document.documentElement.setAttribute("data-bs-theme","light"));
+//]]></script>
+
+<!--
+    Name      : Linktree Blogger Template
+    Demo      : link.inputekno.com
+    Type      : Free
+    Website   : www.inputekno.com
+    Doc       : https://www.inputekno.com/2023/01/cara-membuat-linktree-di-blogger.html
+-->
+
+&lt;!--</body>--&gt;&lt;/body&gt;
+<b:section id='fixelements' showaddelement='no'/>
+</html>

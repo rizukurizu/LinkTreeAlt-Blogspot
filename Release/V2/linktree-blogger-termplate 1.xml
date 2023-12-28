@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<!--[ <head> Open ]-->
+&lt;head&gt;
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<meta content='blogger' name='generator'/>
+<link href='https://www.blogger.com/openid-server.g' rel='openid.server'/>
+  
+<!--Meta Data-->
+<title>Inputekno.Com | linktree</title>
+<meta content='Inputekno.Com | linktree' name='title'/>
+<meta content='Deskripsi Linktree Blog' name='description'/>
+<meta content='Keyword_1, Keyword_2, Keyword_3' name='keywords'/>
+<meta content='index, follow' name='robots'/>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'/>
+<meta content='English' name='language'/>
+
+<!-- Favicons -->
+<link href='https://cdn.inputekno.com/icon-inputekno/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='https://cdn.inputekno.com/icon-inputekno/apple-icon-120x120.png' rel='apple-touch-icon' sizes='120x120'/>
+<link href='https://cdn.inputekno.com/icon-inputekno/apple-icon-152x152.png' rel='apple-touch-icon' sizes='152x152'/>
+  
+<!-- Warna untuk Chrome, Firefox OS, Opera dan Vivaldi -->
+<meta content='#fff' name='theme-color'/>
+<!-- Warna untuk Windows Phone -->
+<meta content='#fff' name='msapplication-navbutton-color'/>
+<!-- Warna untuk iOS Safari -->
+<meta content='#fff' name='apple-mobile-web-app-status-bar-style'/>
+<meta content='yes' name='apple-mobile-web-app-capable'/>
+
+<!-- Sife Verification -->
+<!--<meta name='google-site-verification' content='#'/>-->
+<!--<meta content='#' name='msvalidate.01'/>-->
+
+<!--bootstrap-->
+<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css' rel='stylesheet'/>
+<!--bootstrap Icon-->
+<link href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' rel='stylesheet'/>
+  
+<style id='page-skin-1' type='text/css'><!--
+--></style>
+
+<b:skin version='1.3.0'><![CDATA[
+/****CSS CODE*****/
+:root{
+--bs-tooltip-bg: #f1c40f;
+--bs-tooltip-padding-x:10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Dosis:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@10&display=swap');
+body {margin:0;padding:0}
+*{font-family:'Poppins',sans-serif;box-sizing:border-box}
+.container-fluid{background:linear-gradient(30deg,#e95950,#bc2a8d,#fccc63,#8a3ab9);background-size: 450% 450%;animation:gradient 10s ease infinite;padding:1rem}
+@keyframes gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+/* List Menu Linktree 1 */
+.LinktreeList {max-width: 580px;display: block;margin: 27px auto;}
+.container-fluid .LinktreeList a{text-align:center;margin-top:20px;margin-left:auto;margin-right:auto;padding:15px;border:1px solid #fff;display:block;border-radius:15px;position:relative;font-size:17px;width:680px;max-width:95%;transition:all .3s ease-in-out;color:#fff;text-decoration:none}
+.container-fluid .LinktreeList a:hover, .gears a:hover{text-decoration:none;background-color:#fff;color:#2d3748;transition:all .2s;transform:scale(1.03)}
+.links i{padding:15px;display:block;left:20px;position:absolute;top:0;bottom:0;font-size:17px}
+/* Profile Name */
+.profile-picture{max-width:100px;height:auto;margin-left:auto;margin-right:auto;display:block}
+.profile-name{text-align:center;padding:10px;color:#fff;font-size:20px;font-weight:bold}
+.profile-about{text-align:center;color:#fff;letter-spacing:2px;font-size:15px}
+/* List Menu Linktree 2 */
+.LinktreeList-2 {text-align:center;max-width:100%;display:block}
+.LinktreeList-2 h3{font-size:17px;color:#fff;}
+.gears{width:680px;max-width:95%;margin:10px auto;margin-left:auto;margin-right:auto}
+.gears a{display:inline-block;color:#fff;border:solid #fff 1px;border-radius:10px;padding:12px;margin-bottom:5px;transition:all .25s cubic-bezier(.08,.59,.29,.99);text-decoration:none;font-weight:500;font-size:14px}
+.gear i{padding-right:5px;display:inline-block;}
+/* Footers */
+footer{padding:40px;font-size:14px}
+.footer-section{text-align:center;color:#fff;border-top: 1px solid #fff;padding: 15px 0;}
+.footer-section .footer-text i{color:#b61818}
+.footer-section .footer-text a, .fotCd a{color:#fff;text-decoration:none}
+/* DarkMode */
+.Switchdark{height:70px;width:100%;padding:.5rem 1rem;display:flex;position:relative;align-items:center;justify-content:flex-end}
+.SwitchdarkLb{background:#333;width:40px;height:40px;padding:5px;display:flex;align-items:center;justify-content:center;border-radius:50%}
+.toggledarkwendy{display:none;}
+.toggledarkwendy-btn{display:flex;align-items:center; width:26px;height:26px;}
+.toggledarkwendy-btn svg{fill:#f1c40f;stroke:none;}
+.toggledarkwendy-btn .svg-1{display:inline-block}
+.toggledarkwendy-btn .svg-2{display:none}
+.darkmode .toggledarkwendy-switch:checked + .toggledarkwendy-btn .svg-1{display:none}
+.darkmode .toggledarkwendy-switch:checked + .toggledarkwendy-btn .svg-2{display:inline-block}
+.darkmode .toggledarkwendy-btn svg{stroke:none}
+.darkmode .toggledarkwendy-btn .svg-1{display:none}
+.darkmode .toggledarkwendy-btn .svg-2{display:inline-block}
+.darkmode .container-fluid{background:#141f2a}/* #2d3748 */
+.darkmode .container-fluid .LinktreeList a{background:#1e2732}
+.darkmode .container-fluid .LinktreeList a:hover{color:#fff}
+.darkmode .gears a:hover{color:rgb(29, 155, 240);background:none}
+@media screen and (min-width:768px){::-webkit-scrollbar{-webkit-appearance:none;width:4px;height:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:rgba(0,0,0,.15);border-radius:10px}::-webkit-scrollbar-thumb:hover{background:rgba(0,0,0,.35)}::-webkit-scrollbar-thumb:active{background:rgba(0,0,0,.35)}}
+.custom-tooltip {--bs-tooltip-bg: #f1c40f;--bs-tooltip-padding-x:10px;}
+]]></b:skin>
+
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js'/>
+<!--Remove m=1 Mobile -->
+<script type='text/javascript'>
+var uri=window.location.toString();if(uri.indexOf(&quot;?m=1&quot;,&quot;?m=1&quot;)&gt;0){var clean_uri=uri.substring(0,uri.indexOf(&quot;?m=1&quot;));window.history.replaceState({},document.title,clean_uri)}
+</script>
+
+&lt;!--<head/>
+&lt;!--<body>--&gt;&lt;body&gt;
+
+<div class='container-fluid'>
+    <!-- DarkMode Buttons -->
+    <div class='Switchdark'>
+        <div class='SwitchdarkLb'>
+            <input class='toggledarkwendy toggledarkwendy-switch' id='darkmode' type='checkbox'/>
+            <label class='toggledarkwendy-btn' for='darkmode'>
+                <svg class='svg-1' data-bs-custom-class='custom-tooltip' data-bs-placement='left' data-toggle='tooltip' title='Dark Mode' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z'/>
+                </svg>
+                <svg class='svg-2' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z'/>
+                </svg>
+            </label>
+        </div>
+    </div>
+
+    <!-- Profile name -->
+    <div class='mb-3'>
+        <img alt='profile picture' class='profile-picture' src='Add_your_image_url_here'/>
+        <div class='profile-name'>InpuTekno.Com <img alt='verified' class='drag' height='16' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOmugI2_u7-Ry6YmjtXrouH3GXmXNoC5u97DBsJ8zONT2Ba2HaBcxoX4Rt2t6IPJp2z8qpxus3ejIuB_P00CaPres6EF4vKMvDCbA2KI7NZycCAOq7Xr2clMCCLKxC3AsYNqHUlZg3zw_RwP2owQEB7VSbcO_gjpoFdkxS2_gaAHpk6lIJ_BbDrTe8/s16/verified-badge-16.png' width='16'/></div>
+        <div class='profile-about'>Keep Reading and Keep Working!</div>
+    </div>
+
+    <!-- List Menu Linktree -->
+    <div class='mb-3'>
+        <div class='LinktreeList'>
+            <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-link-45deg'/>Website</a>
+            <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-linkedin'/>LinkedIn</a>
+            <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-github'/>GitHub Code</a>
+            <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-twitter'/>Twitter</a>
+            <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-google-play'/>Play Store</a>
+            <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-instagram'/>Instagram</a>
+            <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-tiktok'/>TikTok</a>
+            <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-youtube'/>Youtube</a>
+            <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-facebook'/>Facebook</a>
+            <a class='links' href='#url_mediasosial' target='_blank'><i class='bi bi-pinterest'/>Pinterest</a>
+        </div>
+    </div>
+
+    <!-- Footers | Ganti sesuai keinginan -->
+	<footer class='FootElement'>
+		<div class='card-footer card-footer py-2 border-top text-center'>
+          <div class='fotCd pb-1 text-light'>
+          	&#169; <span id='getYear'><b:if cond='data:view.url != data:view.url params { amp: &quot;1&quot; }'><script>/*<![CDATA[*/ var d = new Date(); var n = d.getFullYear(); document.getElementById('getYear').innerHTML = n; /*]]>*/</script><b:else/>2023</b:if></span> &#8231; <bdi><a expr:href='data:blog.homepageUrl.canonical'><data:blog.title/></a></bdi>. All rights reserved.
+          </div>
+          <div class='buildCrd text-white-50'>
+              Made with <i class='bi bi-heart-fill'/> By <a class='link-hide text-white-50' href='https://www.inputekno.com/' id='itC' title='InpuTekno'>InpuTekno</a> | v2.2.0 | Build on Blogger
+          </div>
+		</div>
+	</footer>
+    <!-- End -->
+</div>
+
+<script crossorigin='anonymous' integrity='sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=' src='https://code.jquery.com/jquery-3.7.0.min.js'/>
+<!-- DarkMode Buttons By WendyCode -->
+<script type='text/javascript'>
+//<![CDATA[
+document.getElementById("darkmode").addEventListener("click",function(){document.body.classList.toggle("darkmode"),localStorage.setItem("toggled",document.body.classList.contains("darkmode")?"darkmode":"")}),"darkmode"===localStorage.getItem("toggled")&&document.body.classList.add("darkmode");
+'use strict';function _0x3f45(_0x59151e,_0x2312e8){var _0x59a8de=_0x89d2();return _0x3f45=function(_0x1c75cb,_0x43a2c7){_0x1c75cb=_0x1c75cb-(-0xd5e+-0x5b*-0x6d+0x1d1*-0xd);var _0xcbd86a=_0x59a8de[_0x1c75cb];return _0xcbd86a;},_0x3f45(_0x59151e,_0x2312e8);}function _0x89d2(){var _0x327dbc=['iUahG','title','attr','replace','HePfv','height','sUp','=([^&#]*)','\x20.card-foo','fYKia','Power\x20By\x20I','target','9565443QflwRx','ready','appendChil','tekno.com','9jjmhJY','length','mHokN','none','noopener','npuTekno','8401864fBucCu','1969422OWMtTa','style','TWdSm','createElem','itC','ter\x20>\x20.bui','7leLNVc','1447052vCfMvf','TQFhN','display','NzBhT','.FootEleme','InpuTekno','href','exec','tydAk','querySelec','//www.inpu','test','tElement\x20>','rel','tor','text','ent','_GET','footer.Foo','ktQgi','jddPO','parentNode','ldCrd\x20>\x20a#','781784NcopOC','validurlit','[\x5c?&]','1189652DyABhx','261085TrzjCE','_blank'];_0x89d2=function(){return _0x327dbc;};return _0x89d2();}var _0x5ae991=_0x3f45;(function(_0x17af03,_0x18fc04){var _0xd9f269=_0x3f45,_0x454950=_0x17af03();while(!![]){try{var _0x5c59ff=parseInt(_0xd9f269(0x1ea))/(0x59*0x34+0x1*0x47f+-0x1692)+parseInt(_0xd9f269(0x1ed))/(-0x3a*-0x7b+0x77*0x41+0x3a13*-0x1)+parseInt(_0xd9f269(0x1c5))/(-0x1c79+-0xd4*0x15+0x2de0)*(parseInt(_0xd9f269(0x1d3))/(-0x383*0x1+0x1b5c+-0x17d5))+parseInt(_0xd9f269(0x1ee))/(0x349*-0x3+-0x1*-0x238f+-0x523*0x5)+-parseInt(_0xd9f269(0x1cc))/(-0x1337+0x905*-0x2+-0xc6d*-0x3)*(-parseInt(_0xd9f269(0x1d2))/(-0x1*-0x255d+0x35*-0x3b+-0x191f))+-parseInt(_0xd9f269(0x1cb))/(0x72b*0x1+0x7*0x56d+-0x2d1e*0x1)+-parseInt(_0xd9f269(0x1fc))/(-0x1*-0x754+-0x4*-0x157+-0xca7);if(_0x5c59ff===_0x18fc04)break;else _0x454950['push'](_0x454950['shift']());}catch(_0x1b3e9f){_0x454950['push'](_0x454950['shift']());}}}(_0x89d2,-0x1250de+-0x56887+0x22da32));$(document)[_0x5ae991(0x1fd)](function(){var _0x5921c8=_0x5ae991,_0x311662={'mHokN':function(_0x13e113,_0x3adabd){return _0x13e113(_0x3adabd);},'tydAk':function(_0x448da2,_0x276f7a){return _0x448da2+_0x276f7a;},'iUahG':_0x5921c8(0x1ec),'fYKia':_0x5921c8(0x1f7),'ktQgi':function(_0x5d8c4c,_0x4a2485){return _0x5d8c4c==_0x4a2485;},'NzBhT':function(_0x70e13f,_0x16ab43){return _0x70e13f(_0x16ab43);},'jddPO':_0x5921c8(0x1e5)+_0x5921c8(0x1df)+_0x5921c8(0x1f8)+_0x5921c8(0x1d1)+_0x5921c8(0x1e9)+_0x5921c8(0x1d0),'HePfv':_0x5921c8(0x1d9),'TQFhN':_0x5921c8(0x1dd)+_0x5921c8(0x1c4),'TWdSm':_0x5921c8(0x1d8)},_0x5d6700,_0x440bbc,_0xc96416;_0x5d6700=window,_0x440bbc=document,(_0xc96416=_0x311662[_0x5921c8(0x1d6)]($,_0x311662[_0x5921c8(0x1e7)]))[_0x5921c8(0x1c6)]?(_0x5d6700[_0x5921c8(0x1eb)]=function(_0x1e19be){var _0x534559=_0x5921c8;return/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[\-;:&=\+\$,\w]+@)?[A-Za-z0-9\.\-]+|(?:www\.|[\-;:&=\+\$,\w]+@)[A-Za-z0-9\.\-]+)((?:\/[\+~%\/\.\w\-_]*)?\??(?:[\-\+=&;%@\.\w_]*)#?(?:[\.\!\/\\\w]*))?)/[_0x534559(0x1de)](_0x1e19be);},_0x5d6700[_0x5921c8(0x1f6)]=function(_0x58af86){var _0x31ba1e=_0x5921c8;_0x440bbc[_0x31ba1e(0x1dc)+_0x31ba1e(0x1e1)](_0x58af86)[_0x31ba1e(0x1e8)][_0x31ba1e(0x1cd)][_0x31ba1e(0x1f5)]='0';},_0x5d6700[_0x5921c8(0x1e4)]=function(_0x48437f,_0x592af6){var _0x47f557=_0x5921c8;_0x592af6||(_0x592af6=location[_0x47f557(0x1d9)]);var _0x2e389d=_0x311662[_0x47f557(0x1c7)](RegExp,_0x311662[_0x47f557(0x1db)](_0x311662[_0x47f557(0x1db)](_0x311662[_0x47f557(0x1f0)],_0x48437f=_0x48437f[_0x47f557(0x1f3)](/[\[]/,'\x5c[')[_0x47f557(0x1f3)](/[\]]/,'\x5c]')),_0x311662[_0x47f557(0x1f9)]))[_0x47f557(0x1da)](_0x592af6);return _0x311662[_0x47f557(0x1e6)](null,_0x2e389d)?null:_0x2e389d[0xf2e+0xe35*0x1+-0x1d62*0x1];},_0xc96416[_0x5921c8(0x1f2)](_0x311662[_0x5921c8(0x1f4)],_0x311662[_0x5921c8(0x1d4)])[_0x5921c8(0x1e2)](_0x311662[_0x5921c8(0x1ce)])):location[_0x5921c8(0x1d9)]=_0x311662[_0x5921c8(0x1d4)];});let a=document[_0x5ae991(0x1cf)+_0x5ae991(0x1e3)]('a');a[_0x5ae991(0x1d9)]=_0x5ae991(0x1dd)+_0x5ae991(0x1c4),a[_0x5ae991(0x1fb)]=_0x5ae991(0x1ef),a[_0x5ae991(0x1e2)]=_0x5ae991(0x1d8),a[_0x5ae991(0x1e0)]=_0x5ae991(0x1c9),a[_0x5ae991(0x1f1)]=_0x5ae991(0x1fa)+_0x5ae991(0x1ca),document[_0x5ae991(0x1dc)+_0x5ae991(0x1e1)](_0x5ae991(0x1d7)+'nt')[_0x5ae991(0x1fe)+'d'](a)[_0x5ae991(0x1cd)][_0x5ae991(0x1d5)]=_0x5ae991(0x1c8);
+//]]>
+</script>
+
+<!--
+    Name      : Linktree Blogger Template
+    Demo      : link.inputekno.com
+    Type      : Free
+    Website   : www.inputekno.com
+    Doc       : https://www.inputekno.com/2023/01/cara-membuat-linktree-di-blogger.html
+-->
+
+&lt;!--</body>--&gt;&lt;/body&gt;
+<b:section id='fixelements' showaddelement='no'/>
+</html>
