@@ -1,3 +1,5 @@
+# LinktreeAlt Blogger Linktree Clone Template（Theme)
+
 This template is a linktree clone created by RulNoveID,
 
 this template has a version on the release panel, for version 1-2 this template is free to modify and free to change the footer as you wish.
